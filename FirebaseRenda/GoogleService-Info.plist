@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>826601242821-td6gv2qk4afoeibknjjfth88ptjsnqrl.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.826601242821-td6gv2qk4afoeibknjjfth88ptjsnqrl</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC15_Rp63NTarGLww4y-aw8sR32B3law3M</string>
+	<key>GCM_SENDER_ID</key>
+	<string>826601242821</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>app.watanabe.soi.FirebaseRenda</string>
+	<key>PROJECT_ID</key>
+	<string>fir-renda-65fe2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fir-renda-65fe2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:826601242821:ios:881d5faae8387fa751f0ac</string>
+</dict>
+</plist>

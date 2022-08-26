@@ -13,6 +13,8 @@
 		EB82D13428B92AB000315382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB82D13228B92AB000315382 /* Main.storyboard */; };
 		EB82D13628B92AB000315382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB82D13528B92AB000315382 /* Assets.xcassets */; };
 		EB82D13928B92AB000315382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB82D13728B92AB000315382 /* LaunchScreen.storyboard */; };
+		EB82D14228B92D1400315382 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = EB82D14128B92D1400315382 /* FirebaseFirestore */; };
+		EB82D14428B92D6B00315382 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB82D14328B92D6B00315382 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		EB82D13528B92AB000315382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB82D13828B92AB000315382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB82D13A28B92AB000315382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB82D14328B92D6B00315382 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB82D14228B92D1400315382 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +67,7 @@
 				EB82D13528B92AB000315382 /* Assets.xcassets */,
 				EB82D13728B92AB000315382 /* LaunchScreen.storyboard */,
 				EB82D13A28B92AB000315382 /* Info.plist */,
+				EB82D14328B92D6B00315382 /* GoogleService-Info.plist */,
 			);
 			path = FirebaseRenda;
 			sourceTree = "<group>";
@@ -83,6 +88,9 @@
 			dependencies = (
 			);
 			name = FirebaseRenda;
+			packageProductDependencies = (
+				EB82D14128B92D1400315382 /* FirebaseFirestore */,
+			);
 			productName = FirebaseRenda;
 			productReference = EB82D12928B92AB000315382 /* FirebaseRenda.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +119,9 @@
 				Base,
 			);
 			mainGroup = EB82D12028B92AB000315382;
+			packageReferences = (
+				EB82D14028B92D1400315382 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = EB82D12A28B92AB000315382 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB82D13928B92AB000315382 /* LaunchScreen.storyboard in Resources */,
+				EB82D14428B92D6B00315382 /* GoogleService-Info.plist in Resources */,
 				EB82D13628B92AB000315382 /* Assets.xcassets in Resources */,
 				EB82D13428B92AB000315382 /* Main.storyboard in Resources */,
 			);
@@ -356,6 +368,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EB82D14028B92D1400315382 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EB82D14128B92D1400315382 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB82D14028B92D1400315382 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EB82D12128B92AB000315382 /* Project object */;
 }
